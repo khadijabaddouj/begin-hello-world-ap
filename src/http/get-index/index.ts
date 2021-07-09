@@ -12,7 +12,7 @@ let body = `
 
     <h1 class="center-text">
       <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello world!
+      Hello world JDKFKGLLGM!
     </h1>
 
     <p class="center-text">
@@ -31,7 +31,7 @@ export async function handler (req: object) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'crossOrigin': 'null'
     },
-    body
+    body:json.stringfy(req)
   }
 }
 
