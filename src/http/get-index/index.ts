@@ -11,7 +11,8 @@ export async function handler (req: object) {
       'Access-Control-Allow-Origin:'  : 'file:///C:/Users/userpc/Desktop/stage/formulaire.html',
       'Access-Control-Allow-Credentials':'true',
       'Access-Control-Allow-Headers': 'X-Requested-With', 'Content-Type',
-     ' Access-Control-Allow-Methods': 'POST', 'GET'
+     ' Access-Control-Allow-Methods': 'POST', 'GET',
+      'mode': 'no-cros'
     },
     body:JSON.stringify('hello')
   }
