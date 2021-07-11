@@ -1,6 +1,7 @@
 
 
 export async function handler (req: object) {
+  console.log(req)
   return {
     statusCode: 200,
     headers: {
