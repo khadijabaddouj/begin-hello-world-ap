@@ -1,7 +1,7 @@
 
 
 export async function handler (req: object) {
-  console.log(JSON.parse(JSON.stringify(req)))
+
   return {
     statusCode: 200,
     headers: {
@@ -9,7 +9,7 @@ export async function handler (req: object) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'crossOrigin': 'null'
     },
-    body:JSON.stringify("hello" )
+    body:JSON.stringify(JSON.parse(JSON.stringify(req)))
   }
 }
 
