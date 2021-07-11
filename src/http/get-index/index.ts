@@ -1,7 +1,7 @@
 
 
 export async function handler (req: object) {
-  console.log(req)
+  console.log(JSON.parse(JSON.stringify(req)))
   return {
     statusCode: 200,
     headers: {
