@@ -1,4 +1,5 @@
 
+unAttribut : string = "Formulaire de contact";
 
 export async function handler (req: object) {
 
@@ -9,7 +10,7 @@ export async function handler (req: object) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'Access-Control-Allow-Origin:'  : 'file:///C:/Users/userpc/Desktop/stage/formulaire.html'
     },
-    body:JSON.stringify(req)
+    body:JSON.stringify('hello')
   }
 }
 
