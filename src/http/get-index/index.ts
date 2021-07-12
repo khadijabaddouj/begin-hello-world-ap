@@ -9,6 +9,7 @@ export async function handler (req: object) {
       'Access-Control-Allow-Origin':'*',
       "Access-Control-Allow-Methods": "POST, OPTIONS",
       Accept: "application/json",
+      cors: 'true',
     },
     body:JSON.stringify(req)
   }
