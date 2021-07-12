@@ -13,7 +13,7 @@ export async function handler (req: object) {
      ' Access-Control-Allow-Methods': 'POST', 'GET'
    
     },
-    body:JSON.stringify(req)
+    body:JSON.stringify('hello')
   }
 }
 
