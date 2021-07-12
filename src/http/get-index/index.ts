@@ -9,8 +9,8 @@ export async function handler (req: object) {
      
       'Access-Control-Allow-Origin':'*',
       'Access-Control-Allow-Credentials':'true',
-      'Access-Control-Allow-Headers': 'X-Requested-With', 'Content-Type',
-     ' Access-Control-Allow-Methods': 'POST', 'GET'
+      'Access-Control-Allow-Headers': 'X-Requested-With',
+     ' Access-Control-Allow-Methods': 'POST'
    
     },
     body:JSON.stringify('hello')
