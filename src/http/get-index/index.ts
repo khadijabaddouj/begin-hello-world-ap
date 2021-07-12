@@ -8,7 +8,7 @@ export async function handler (req: object) {
     headers: {
       
      
-      'Access-Control-Allow-Origin:'  : 'file:///C:/Users/userpc/Desktop/stage/formulaire.html',
+      'Access-Control-Allow-Origin:'  : '*',
       'Access-Control-Allow-Credentials':'true',
       'Access-Control-Allow-Headers': 'X-Requested-With', 'Content-Type',
      ' Access-Control-Allow-Methods': 'POST', 'GET',
