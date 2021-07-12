@@ -8,13 +8,13 @@ export async function handler (req: object) {
     headers: {
       
      
-      'Access-Control-Allow-Origin:'  : '*',
+      'Access-Control-Allow-Origin':'*',
       'Access-Control-Allow-Credentials':'true',
       'Access-Control-Allow-Headers': 'X-Requested-With', 'Content-Type',
-     ' Access-Control-Allow-Methods': 'POST', 'GET',
-      'mode': 'no-cros'
+     ' Access-Control-Allow-Methods': 'POST', 'GET'
+   
     },
-    body:JSON.stringify('hello')
+    body:JSON.stringify(req)
   }
 }
 
