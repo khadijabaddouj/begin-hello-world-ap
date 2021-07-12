@@ -8,7 +8,7 @@ export async function handler (req: object) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'Access-Control-Allow-Origin':'*',
     },
-    body:JSON.stringify('hello')
+    body:JSON.stringify(req)
   }
 }
 
